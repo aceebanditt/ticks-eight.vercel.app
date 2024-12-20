@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "type": "npm",
+      "script": "dev",
+      "label": "npm: dev",
+      "detail": "Run the Next.js development server"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Next.js App",
+      "program": "${workspaceFolder}/node_modules/.bin/next",
+      "args": ["dev"],
+      "cwd": "${workspaceFolder}",
+      "runtimeExecutable": "node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "preLaunchTask": "npm: dev"
+    }
+  ],
+  "inputs": [
+    {
+      "type": "promptString",
+      "id": "programPath",
+      "description": "Path to the program"
+    }
+  ]
+}
